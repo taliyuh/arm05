@@ -1,0 +1,10 @@
+int32 markers_to_find 5
+float32 timeout_s 600.0
+---
+bool success
+int32[] ids
+geometry_msgs/Point[] positions
+---
+int32 markers_found
+float32 elapsed_s
+string tree_tip
